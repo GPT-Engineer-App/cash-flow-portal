@@ -55,8 +55,14 @@ const Index = () => {
           <Feature icon={<FaChartLine />} title={"Real-Time Analytics"} text={"Get up-to-date information on your finances with our real-time analytics and dashboards."} />
           {/* Feature 2 */}
           <Feature icon={<FaRegCreditCard />} title={"Secure Transactions"} text={"Protect your financial data with our bank-level security and encryption standards."} />
-          {/* Feature 3 */}
+          {/* Feature 4 */}
           <Feature icon={<FaUserFriends />} title={"Collaborate with Advisors"} text={"Work with financial advisors to plan and achieve your financial goals more effectively."} />
+          {/* Feature 5 */}
+          <Feature icon={<FaChartLine />} title={"Budgeting"} text={"Set budgets and track your expenses to achieve your financial goals."} link="/budgeting" />
+          {/* Feature 6 */}
+          <Feature icon={<FaRegCreditCard />} title={"Investments"} text={"Invest smartly with our easy-to-use tools and get real-time financial insights."} link="/investments" />
+          {/* Feature 7 */}
+          <Feature icon={<FaUserFriends />} title={"Credit Management"} text={"Monitor and manage your credit score with our comprehensive credit tools."} link="/credit-management" />
         </Stack>
       </VStack>
     </Container>
